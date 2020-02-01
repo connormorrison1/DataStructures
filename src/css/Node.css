@@ -1,0 +1,59 @@
+#root {
+    display:block;
+    margin:auto;
+}
+
+#nodes {
+    position: relative;
+    top: 100px;
+}
+
+.arrow {
+    width: 30px;
+    height: 5px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    background: black;
+    z-index: -2;
+}
+
+.rightArrow {
+    transform: rotateY(0deg) rotate(45deg);
+}
+
+.leftArrow {
+    transform: rotateY(0deg) rotate(-45deg);
+}
+.lineParent{
+    position: absolute;
+    overflow: auto;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.circle {
+    border: 2px solid black;
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+    background-color:white;
+}
+
+.circle h3 {
+    margin-top: 24px;
+}
+
+.childNodes {
+    display: inline-grid;
+    position: absolute;
+    overflow: auto;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
