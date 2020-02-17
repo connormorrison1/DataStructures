@@ -3,6 +3,13 @@
     margin:auto;
 }
 
+#svgContainer{
+    position: absolute;
+    padding-top:40px;
+    width:100%;
+    height:100%;
+}
+
 #nodes {
     position: relative;
     top: 100px;
@@ -40,11 +47,29 @@
     width: 75px;
     height: 75px;
     border-radius: 100px;
+    overflow: hidden !important;
     background-color:white;
 }
 
 .circle h3 {
     margin-top: 24px;
+    overflow: hidden !important;
+}
+
+.overlapCircle {
+    width: 37.5px;
+    overflow: hidden !important;
+    height: 37.5px;
+    border: 2px solid black;
+    border-radius: 100px;
+    background-color: white;
+}
+
+.overlapCircle h3 {
+    margin-top: 5px;
+    width: 37.5px;
+    height: 37.5px;
+    overflow: hidden;
 }
 
 .childNodes {

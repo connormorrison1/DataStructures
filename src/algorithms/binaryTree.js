@@ -79,7 +79,6 @@ class BinaryTree {
         }
         this.postorderTraversal(node.left,listOfNodes, false);
         this.postorderTraversal(node.right,listOfNodes, false);
-        console.log(node);
         listOfNodes.push(node);
     }
 }

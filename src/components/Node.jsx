@@ -1,24 +1,15 @@
-import React, {useState, useEffect} from 'react';
-import {InputBase} from "@material-ui/core";
+import React from 'react';
 import '../css/Node.css';
-import ConnectingLine from "./ConnectingLine";
 
 const Node = (props) => {
-    const [lines, setLine] = useState([]);
-    //equiv to componentDidMount(), which is runs when component is initial loaded. like init()
-    let lineLeft = 0;
-    let lineTop = 0;
-    let lineAngle = 0;
-    let lineHeight = 0;
-
     return (
-        <div >
-        <div id = {props.type === "root" ? "root": props.value} className={props.type !== "root"? "circle childNodes " + props.value : "root circle"} style = {{left:props.style.left, top: props.style.top}}>
-            <h3>{props.value}</h3>
-        </div>
-            {props.hasRight && !props.hasFarRight && props.type !== "root" ? <div className={"arrow rightArrow"} style={{left: props.style.left + 77, top: props.style.top + 73}}></div> : ""}
+        <div>
+            <div id = {props.type === "root" ? "root": props.value} className={props.type !== "root" && (!props.isLeftOverlap && !props.isRightOverlap) ? "circle childNodes " + props.value : ((props.isLeftOverlap || props.isRightOverlap)) ?  ("overlapCircle childNodes " + props.value) : "root circle"} style = {{left:(props.isRightOverlap ? props.style.left-50 : props.isLeftOverlap ? props.style.left+50 :props.style.left), top:(props.isRightOverlap || props.isLeftOverlap) ? props.style.top-50 : props.style.top}}>
+                <h3>{props.value}</h3>
+            </div>
+            {props.hasRight && !props.hasFarRight && props.type !== "root" ? <div className={"arrow rightArrow"} style={{left: props.isRightOverlap ? props.style.left +33 : props.style.left + 77, top: props.isRightOverlap ? props.style.top + 23 : props.style.top + 73, width: props.isRightOverlap ? "120px" : ""}}></div> : ""}
             {props.hasRight && props.hasFarRight && props.type !== "root" ? <div className={"arrow rightArrow"} style={{left: props.style.left + 227, top: props.style.top + 73, width: "200px", transform: "rotateY(0deg) rotate(20deg)"}}></div> : ""}
-            {props.hasLeft && props.type !== "root" ? <div className={"arrow leftArrow"} style={{left: props.style.left - 77, top: props.style.top + 73}}></div> : ""}
+            {props.hasLeft && props.type !== "root" ? <div className={"arrow leftArrow"} style={{left: props.isLeftOverlap ? props.style.left -33 : props.style.left - 77, top: props.isLeftOverlap ? props.style.top + 23 : props.style.top + 73, width: props.isLeftOverlap ? "120px" : ""}}></div> : ""}
         </div>
     );
 };
