@@ -1,7 +1,3 @@
-import {BinaryTree} from "./binaryTree";
-
-let arr = [];
-let tree = new BinaryTree();
 let levels = {};
 let farthestLeft = -150;
 let farthestRight = 150;
