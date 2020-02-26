@@ -12,4 +12,5 @@ This is a representation of a Trie with the visualizer. This Trie's language is:
 ## Running the app
 
 - cd into the **/DataStructures** directory
-- execute **npm start**
+- run **npm install**
+- run **npm start**
