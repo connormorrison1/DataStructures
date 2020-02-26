@@ -3,16 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4504480a-2d74-44f8-9b57-6582d1d4f42f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/binaryTree.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binaryTree.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/buildTree.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/buildTree.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/connectNodes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/connectNodes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/heap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/linkedList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ConnectingLine.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ConnectingLine.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Node.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Node.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Node.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Node.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/res/1.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/res/2.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/res/3.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +46,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Connor\WebstormProjects\DataStructures\res" />
       <recent name="C:\Users\connor.morrison\PhpstormProjects\sorting\src\algorithms\binaryTree" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -112,7 +107,7 @@
       <workItem from="1580581164800" duration="11288000" />
       <workItem from="1580592495263" duration="14149000" />
       <workItem from="1581959994135" duration="2569000" />
-      <workItem from="1581994160366" duration="103297000" />
+      <workItem from="1581994160366" duration="104119000" />
     </task>
     <servers />
   </component>
