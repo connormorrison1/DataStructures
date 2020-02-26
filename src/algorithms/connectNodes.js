@@ -58,10 +58,10 @@ export const connectElements = (container, svg, path, startElem, endElem) => {
     return drawPath(svg, path, startX, startY, endX, endY);
 };
 
-export const connectAll = (node,path) => {
+export const connectAll = (node,path, parent = null) => {
     // connect all the paths you want!
     // console.log(left + " " + right);
     if(document.getElementById(node)!== null) {
-        return connectElements(document.getElementById("svgContainer"), document.getElementById("svg1"), document.getElementById(path), document.getElementById("root"), document.getElementById(node));
+        return connectElements(document.getElementById("svgContainer"), document.getElementById("svg1"), document.getElementById(path), (parent === null ? document.getElementById("root") : document.getElementById(parent)), document.getElementById(node));
     }
 }

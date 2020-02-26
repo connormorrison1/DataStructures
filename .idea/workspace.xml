@@ -3,7 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="4504480a-2d74-44f8-9b57-6582d1d4f42f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/binaryTree.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binaryTree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/buildTree.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/buildTree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/connectNodes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/connectNodes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/heap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/linkedList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ConnectingLine.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ConnectingLine.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Node.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Node.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Node.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Node.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +39,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,11 +51,12 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\connor.morrison\AppData\Roaming\npm\node_modules\prettier" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\connor.morrison\PhpstormProjects\sorting\src\algorithms" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\connor.morrison\PhpstormProjects\sorting\src\algorithms\binaryTree" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Connor\WebstormProjects\DataStructures\src\components" />
+      <recent name="C:\Users\connor.morrison\PhpstormProjects\sorting\src\algorithms" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -101,7 +111,8 @@
       <workItem from="1580580698202" duration="443000" />
       <workItem from="1580581164800" duration="11288000" />
       <workItem from="1580592495263" duration="14149000" />
-      <workItem from="1581959994135" duration="1961000" />
+      <workItem from="1581959994135" duration="2569000" />
+      <workItem from="1581994160366" duration="103297000" />
     </task>
     <servers />
   </component>

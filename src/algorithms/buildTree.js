@@ -8,7 +8,7 @@ const findParent = (allNodes, node) => {
             let index = allNodes.findIndex(function(thisNode) {
                 return thisNode.key == node.parent;
             });
-            node.top = allNodes[index].top + 150;
+            node.top = allNodes[index].top + 300;
             if(levels[node.top]) {
                 if(!levels[node.top].includes(node.key)) {
                     levels[node.top].push(node.key);

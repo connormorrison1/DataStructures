@@ -8,7 +8,7 @@ class Node {
         this.top = 0;
         this.hasLeft = false;
         this.hasRight = false;
-        this.leftSpacing= 0;
+        this.leftSpacing = 0;
     }
 
 }
@@ -20,26 +20,26 @@ class BinaryTree {
     }
 
     insertNode(key) {
-        //let nodeToAdd = new Node(key);
         if (this.root === null) {
-            let nodeToAdd = new Node(key,null);
+            let nodeToAdd = new Node(key, null);
             this.root = nodeToAdd;
+            this.root.isRoot = true;
         } else {
-            let nodeToAdd = new Node(key,this.root.key);
+            let nodeToAdd = new Node(key, this.root.key);
             this.addNode(this.root, nodeToAdd);
         }
     }
 
-    addNode (parent, toAdd) {
+    addNode(parent, toAdd) {
         let nodeToAdd = new Node(toAdd.key, parent.key);
         if (parseInt(nodeToAdd.key) > parseInt(parent.key)) {
-            if(parent.right === null) {
+            if (parent.right === null) {
                 parent.right = nodeToAdd;
             } else {
                 this.addNode(parent.right, nodeToAdd);
             }
         } else {
-            if(parent.left === null) {
+            if (parent.left === null) {
                 parent.left = nodeToAdd;
             } else {
                 this.addNode(parent.left, nodeToAdd);
@@ -47,7 +47,7 @@ class BinaryTree {
         }
     }
 
-    createTree (nodesToAdd) {
+    createTree(nodesToAdd) {
         let self = this;
         nodesToAdd.forEach(function (item, index) {
             self.insertNode(item);
@@ -59,27 +59,28 @@ class BinaryTree {
      * Irorder traversal:
      * traverse left subtree -> visit root -> traverse right subtree
      */
-    inorderTraversal () {
+    inorderTraversal() {
 
     }
 
-    preorderTraversal (node, listOfNodes) {
-        if(node === null) {
+    preorderTraversal(node, listOfNodes) {
+        if (node === null) {
             return;
         }
         listOfNodes.push(node);
         this.preorderTraversal(node.left, listOfNodes);
-        this.preorderTraversal(node.right,listOfNodes);
+        this.preorderTraversal(node.right, listOfNodes);
         return listOfNodes;
     }
 
-    postorderTraversal (node, listOfNodes, firstRun) {
-        if(node === null) {
+    postorderTraversal(node, listOfNodes, firstRun) {
+        if (node === null) {
             return;
         }
-        this.postorderTraversal(node.left,listOfNodes, false);
-        this.postorderTraversal(node.right,listOfNodes, false);
+        this.postorderTraversal(node.left, listOfNodes, false);
+        this.postorderTraversal(node.right, listOfNodes, false);
         listOfNodes.push(node);
     }
 }
+
 export {BinaryTree};
